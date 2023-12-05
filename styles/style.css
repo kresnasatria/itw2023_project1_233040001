@@ -72,8 +72,13 @@ section .sextion-title {
   color: var(--primary-color);
 }
 
+body {
+  width: 1348px;
+}
+
 /* Header */
 .header-section {
+  width: 100%;
   background-color: rgb(25, 25, 87);
 }
 
@@ -193,6 +198,13 @@ section .sextion-title {
   }
 
   .col-md-5 img {
-    margin-top: -130px;
+    margin-top: 10px;
+    transform: scale(1.39);
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .col-md-5 img {
+    transform: scale(1.2);
   }
 }
