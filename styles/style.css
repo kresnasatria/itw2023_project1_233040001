@@ -207,4 +207,8 @@ body {
   .col-md-5 img {
     transform: scale(1.2);
   }
+
+  .header-section {
+    width: 1390px;
+  }
 }
