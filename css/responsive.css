@@ -87,6 +87,7 @@
   #hero {
     grid-template-columns: 1fr;
     height: fit-content;
+    padding-top: 100px;
   }
 
   .hero-name {
@@ -163,5 +164,15 @@
 
   .portfolio img {
     padding-left: 130px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .hero-right img {
+    padding-left: 50px;
+    transform: scale(1);
+  }
+
+  .portfolio img {
+    padding-left: 100px;
   }
 }
