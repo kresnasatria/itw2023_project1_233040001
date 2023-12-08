@@ -20,6 +20,15 @@
   .nav ul {
     padding-left: 10px;
   }
+
+  .video-1 {
+    margin-left: -110px;
+    transform: scale(0.4);
+  }
+
+  .video-2 {
+    margin-left: -20px;
+  }
 }
 
 @media screen and (max-width: 825px) {
@@ -118,6 +127,10 @@
 
   /* Skils Section */
 
+  #skills {
+    padding-top: 100px;
+  }
+
   .skills-grid {
     gap: 1rem;
   }
@@ -126,6 +139,16 @@
 
   .footer {
     padding: 2rem 0;
+  }
+
+  /* Video */
+
+  .video-1 {
+    margin-left: -165px;
+  }
+
+  .video-2 {
+    margin-left: -45px;
   }
 }
 
@@ -153,6 +176,22 @@
   .pre-title {
     font-size: 0.7rem;
   }
+
+  /* Video */
+
+  .video-1 {
+    transform: scale(0.3);
+  }
+
+  .video-2 {
+    transform: scale(0.1);
+    margin-top: -1080px;
+  }
+
+  /* Skills */
+  #skills {
+    padding-top: 10px;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -165,6 +204,16 @@
   .portfolio img {
     padding-left: 130px;
   }
+
+  .video-1 {
+    margin-left: -130px;
+    margin-top: -300px;
+    transform: scale(0.2);
+  }
+
+  .video-2 {
+    margin-top: -1130px;
+  }
 }
 @media screen and (max-width: 450px) {
   .hero-right img {
@@ -174,5 +223,13 @@
 
   .portfolio img {
     padding-left: 100px;
+  }
+
+  .video-1 {
+    margin-left: -150px;
+  }
+
+  .video-2 {
+    margin-left: -65px;
   }
 }

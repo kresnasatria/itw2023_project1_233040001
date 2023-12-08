@@ -166,6 +166,10 @@ nav ul li a {
   color: var(--primaryTextColor);
 }
 
+nav ul li .link:hover {
+  color: var(--secondaryTextColor);
+}
+
 /* Burger */
 
 .burger div {
@@ -272,11 +276,35 @@ nav ul li a {
   text-align: center;
 }
 
+/* Videos */
+
+#videos {
+  padding: var(--sectionPadding);
+  background: var(--fourthBackgroundColor);
+}
+
+.videos .pre-title {
+  margin: 0 auto;
+}
+
+.video-1 {
+  margin: 0;
+  margin-top: -250px;
+  transform: scale(0.6);
+}
+
+.video-2 {
+  margin: 0;
+  margin-top: -890px;
+  transform: scale(0.2);
+}
+
 /* Skills & Education */
 
 #skills {
   padding: var(--sectionPadding);
   background: var(--fourthBackgroundColor);
+  margin-top: -900px;
 }
 
 .skills-grid {
