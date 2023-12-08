@@ -124,6 +124,10 @@ a {
 
 /* Logo & Nav */
 
+.burger {
+  margin-top: -13px;
+}
+
 .nav {
   background: #0e314b;
   position: fixed;
