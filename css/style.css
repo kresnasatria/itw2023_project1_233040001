@@ -126,7 +126,6 @@ a {
 
 .burger {
   margin-top: -13px;
-  margin-right: 55px;
 }
 
 .nav {
@@ -144,7 +143,6 @@ a {
   list-style: none;
   display: flex;
   gap: 3rem;
-  padding-left: 600px;
 }
 
 .logo {
