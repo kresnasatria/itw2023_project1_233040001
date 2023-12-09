@@ -37,7 +37,6 @@
   .burger {
     display: block;
     cursor: pointer;
-    margin-right: 120px;
   }
 
   .toggle-burger .line-1 {
@@ -217,14 +216,6 @@
   }
 }
 @media screen and (max-width: 450px) {
-  .nav ul {
-    padding-right: 100px;
-  }
-
-  .burger {
-    margin-right: 65px;
-  }
-
   .hero-right img {
     padding-left: 50px;
     transform: scale(1);
